@@ -1,0 +1,47 @@
+<html>
+<head>
+<title>EXAMPLE</title>
+<style>
+.img1{
+position:relative;
+height:200px;
+width:257px;
+float:left;
+margin-right:10px;
+}
+.img1 div{
+position:absolute;
+bottom:0;
+right:0;
+background:black;
+color:white;
+margin-bottom:5px;
+font-family:cursive;
+visibility:hidden;
+opacity:0;
+-webkit-transition:visibility 0s,opacity 0.5s linear;
+transition:opacity 0s,visibility 0s;
+}
+.img1:hover{
+cursor:pointer;
+}
+.img1:hover div{
+width:150px;
+padding:8px 15px;
+visibility:visible;
+opacity:1;
+}
+</style>
+</head>
+
+<body>
+<div class="img1">
+<img src="queen.jpg" height="200px" width="250px" >
+<div>this is crown image</div>
+</div>
+<div class="img1">
+<img src="girl boss.jpg" height="200px" width="250px" >
+<div>this is girl boss image</div>
+</div>
+</body>
+</html>

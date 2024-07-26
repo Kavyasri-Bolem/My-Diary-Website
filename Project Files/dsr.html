@@ -1,0 +1,119 @@
+<html>
+<head>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<title>select</title>
+<style type=text/css>   
+
+.button{
+background-color:violet;
+border-color:blue;
+height:40px;
+width:100px;
+color:white;
+}
+.center img{
+position:absolute;
+top:45%;
+left:20%;
+transform:translate(-50%,-50%);
+}
+.center2 img{
+position:absolute;
+top:45%;
+left:50%;
+transform:translate(-50%,-50%);
+}
+.center3 img{
+position:absolute;
+top:45%;
+left:80%;
+transform:translate(-50%,-50%);
+}
+.center4 h1{
+position:absolute;
+top:70%;
+left:20%;
+transform:translate(-50%,-50%);
+}
+.center5 h1{
+position:absolute;
+top:70%;
+left:50%;
+transform:translate(-50%,-50%);
+}
+.center6 h1{
+position:absolute;
+top:70%;
+left:80%;
+transform:translate(-50%,-50%);
+}
+.center1 h1{
+position:absolute;
+top:0.2%;
+left:96%;
+transform:translate(-50%,-50%);
+}
+.navbar {
+  top:0;
+  position:fixed;
+  left:0;
+  width: 100%;
+  background-color: #555;
+  overflow:auto;
+}
+
+.navbar a {
+  float: left;
+  padding: 12px;
+  color: white;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.navbar a:hover {
+  background-color: #000;
+}
+
+.active {
+  background-color: #04AA6D;
+}
+
+@media screen and (max-width: 500px) {
+  .navbar a {
+    float: none;
+    display: block;
+  }
+}
+</style>
+</head>
+<body background=dsr.jpg>
+<div class="navbar">
+  <a class="active" target="_self" href="mainpage.html"><i class="fa fa-fw fa-home"></i>MyDiary</a> 
+  <a href="about1.html" target="_self"><i class="fa fa-fw fa-cloud"></i> About</a> 
+  <a href="contact1.html" target="_self"><i class="fa fa-fw fa-envelope"></i> Contact</a>
+  
+ </div>
+<div class="center">
+<a href="mydiary.jsp" target="_self"><img src="mydairy.jpg" height=50% width=20%></a>
+</div>
+<div class="center4">
+<h1>My Diary</h1>
+</div>
+<div class="center2">
+<a href="secret.html" target="_self"><img src="secretlock.jpg" height=50% width=20%></a>
+</div>
+<div class="center5">
+<h1>Secret Locker<h1>
+</div>
+<div class="center3">
+<a href="remainderr.jsp" target="_self"><img src="remainder.png" height=50% width=20%></a>
+</div>
+<div class="center6">
+<h1>Remainder</h1>
+</div>
+<div class="center1">
+<a href="mainpage.html" target="_self" ><h1><input class="button" type="button" value="logout"></h1></a>
+</div>
+ 
+</body>
+</html>
